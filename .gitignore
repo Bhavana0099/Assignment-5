@@ -1,4 +1,6 @@
 # Ignoring node modules folder
 node_modules/
-package-lock.json
-package/
+dist/css/desktop.ini
+dist/images/desktop.ini
+package.json
+
