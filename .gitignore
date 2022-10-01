@@ -1,4 +1,3 @@
 # Ignoring node modules folder
 node_modules/
-* package.json
 
