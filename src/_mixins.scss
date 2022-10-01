@@ -1,0 +1,18 @@
+@mixin break($width) {
+    @media screen and (max-width : $width) {
+        @content;
+    }
+}
+@mixin clearfix {
+    &:before, &:after {
+        content: '';
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+@mixin footer-img($img, $x: 0, $y: 0) {
+    background: url($img) $x $y;
+}
+
