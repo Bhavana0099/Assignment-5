@@ -1,4 +1,6 @@
 # Ignoring node modules folder
 node_modules/
-*.json
 
+
+".json" 
+"*.json" 
